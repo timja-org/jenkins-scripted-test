@@ -6,5 +6,5 @@ node {
   stage('Build') {
     sh "env | egrep 'GIT|CHANGE'"
   }
-  
+    
 }

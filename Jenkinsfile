@@ -10,5 +10,5 @@ node {
   stage('Notify') {
    slackSend notifyCommitters: true, message: "Build done"
   }
-  
+   
 }

@@ -7,12 +7,8 @@ node {
     sh "env | egrep 'GIT|CHANGE'"
   }
   
-    stage('Build 2') {
-    sh "env | egrep 'GIT|CHANGE'"
+  stage('Notify') {
+   echo "Hi"
   }
-  
-    stage('Build 3') {
-    sh "env | egrep 'GIT|CHANGE'"
-  }
-    
+            
 }

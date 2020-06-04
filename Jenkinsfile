@@ -8,7 +8,7 @@ node {
   }
   
   stage('Notify') {
-   echo "Hi 2"
+   echo "Hi 3"
   }
             
 }
